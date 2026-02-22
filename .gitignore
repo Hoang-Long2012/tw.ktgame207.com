@@ -1,2 +1,2 @@
 source/public/
-*.log
+source/.hugo_build.lock
