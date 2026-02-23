@@ -1,37 +1,22 @@
 ---
-
-title: "cup"
+title: "Paper Cup"
 date: 2026-01-14
+---
+
+## Item Overview
+
+The **Paper Cup** is a basic yet vital container used for consuming liquids such as water and coffee. It is a prerequisite for using the coffee machine without waste.
+
+## Crafting Instructions
+
+Follow these steps to construct a reliable paper cup:
+
+1.  **Preparation**: Hold a **Piece of Paper** in one hand while keeping the other hand free. Press **T** to fold the paper. Repeat this process until you have **2 Folded Pieces of Paper**.
+2.  **Assembly**: Equip both **Folded Pieces of Paper** (one in each hand) and press **T** to combine them into an **Unfinished Cup**.
+3.  **Base Construction**: Use a **Paper Cutter** on another piece of paper to produce a **Circular Piece of Paper**.
+4.  **Finalization**: Equip the **Unfinished Cup** and the **Circular Piece of Paper**, then press **T** to complete the assembly of your **Paper Cup**.
 
 ---
 
-## Item Description
-
-A cup for **drinking water, coffee, and more**.
-
-
-
-## Instructions
-
-
-
-*   **Step 1:** Take a piece of paper and your free hand, then **press** it.
-
-*   This will produce a folded piece of paper; repeat to make **2 folded pieces of paper**.
-
-*   **Step 2:** Take the **2 folded pieces of paper and put them together** to create an unfinished cup.
-
-*   **Step 3:** Take a **paper cutter** and use it to make a **circular** piece of paper.
-
-*   **Step 4:** Attach the **circular piece of paper to the unfinished cup** and you're done.
-
-
-
----
-
-
-
-## 📝 Quick Note
-
-> If you're not familiar with crafting, check out the **general instructions** and read the **"how to craft items"** article.
-
+> [!TIP]
+> If you are new to the crafting system, please refer to our [Mastering the Crafting System](file:///h:/GIT/tw.ktgame207.com/source/content/General%20guide/how%20to%20craft%20an%20item.md) guide for a detailed breakdown of the mechanics.
