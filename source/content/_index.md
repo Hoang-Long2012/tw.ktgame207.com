@@ -1,5 +1,5 @@
 ---
-title: "Welcome to Terra Wilds"
+title: "Welcome to "
 menu:
   main:
     name: "Home"
