@@ -15,4 +15,4 @@ Access the latest version of Terra Wilds below. Ensure you have the necessary sy
 {{< download-box >}}
 
 > [!TIP]
-> Always check the [Changelog](file:///h:/GIT/tw.ktgame207.com/source/content/changelog/_index.md) to stay informed about the latest updates and bug fixes.
+> Always check the [Changelog](/changelog) to stay informed about the latest updates and bug fixes.
