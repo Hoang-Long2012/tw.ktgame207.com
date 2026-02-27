@@ -19,4 +19,4 @@ Follow these steps to construct a reliable paper cup:
 ---
 
 > [!TIP]
-> If you are new to the crafting system, please refer to our [Mastering the Crafting System](file:///h:/GIT/tw.ktgame207.com/source/content/General%20guide/how%20to%20craft%20an%20item.md) guide for a detailed breakdown of the mechanics.
+> If you are new to the crafting system, please refer to our [Mastering the Crafting System]({{< ref "General guide/how to craft an item.md" >}}) guide for a detailed breakdown of the mechanics.
