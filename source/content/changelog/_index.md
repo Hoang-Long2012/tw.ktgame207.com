@@ -10,6 +10,12 @@ menu:
 
 Stay updated with the latest developments, feature additions, and bug fixes in Terra Wilds.
 
+## Version 14.04
+
+### bug fix
+- fix Out of range in form(next_line_silent).
+- Fixed a bug in the player menu where letter-based navigation was not working correctly. Users can now jump to players in the list by typing the first letter of their name, regardless of case.
+
 ## Version 14.03
 
 ### Security Enhancements
