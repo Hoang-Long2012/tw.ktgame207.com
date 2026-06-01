@@ -2,6 +2,46 @@
 <p><a href="https://t.me/+ZNK40ZOnhPsxNWU9">join the tw group on telegram</a></p>
 <p><a href="https://m.me/j/AbZ7dfinvVB6LZOT/">join the tw group on messenger, only for locals, vietnam</a></p>
 <footer>
-<p> © 2026 terra wilds, by technology entertainment, all rights reserved</p>
-<p>Powered by <a href="https://github.com/harrymkt/hguinav">UI Navigation Theme</a> Created by <a href="https://harrymkt.github.io">Harry Min Khant</a></p>
+<p> © 2026 terra wilds, by technology entertainment. all rights reserved</p>
+{{ $latestPage := index (where .Site.RegularPages "Lastmod" "!=" nil).ByLastmod.Reverse 0 }}
+{{ if $latestPage }}
+<!-- Sử dụng .Lastmod.UnixMilli để lấy thời gian dạng số, chuẩn 100% không lo lệch múi giờ -->
+<p id="update-status" data-lastmod="{{ now.UnixMilli }}">Loading...</p>
+{{ end }}
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const element = document.getElementById("update-status");
+    if (!element) return;
+
+    const lastmodTimestamp = parseInt(element.getAttribute("data-lastmod"), 10);
+    if (!lastmodTimestamp) return;
+
+    function updateTimeAgo() {
+      const today = new Date().getTime();
+      const diffTime = Math.abs(today - lastmodTimestamp);
+      
+      const diffHours = Math.floor(diffTime / (1000 * 60 * 60));
+      const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
+
+      let text = "";
+      
+      if (diffHours < 24) {
+        if (diffHours === 0) {
+          const diffMinutes = Math.floor(diffTime / (1000 * 60));
+          text = `This site was last updated ${diffMinutes} ${diffMinutes <= 1 ? 'minute' : 'minutes'} ago`;
+        } else {
+          text = `This site was last updated ${diffHours} ${diffHours <= 1 ? 'hour' : 'hours'} ago`;
+        }
+      } else {
+        text = `This site was last updated ${diffDays} ${diffDays <= 1 ? 'day' : 'days'} ago`;
+      }
+
+      element.innerText = text;
+    }
+
+    updateTimeAgo();
+    setInterval(updateTimeAgo, 60000); // Chạy real-time mỗi phút
+  });
+</script>
 </footer>

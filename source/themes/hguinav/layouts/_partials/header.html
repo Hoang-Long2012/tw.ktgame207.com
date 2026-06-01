@@ -16,4 +16,19 @@
 <link href="{{ absURL "pagefind/pagefind-ui.css" }}" rel="stylesheet">
 <script src="{{ absURL "pagefind/pagefind-ui.js" }}"></script>
 <div id="sitesearch"></div>
+<div class="datetime-display" style="padding: 10px; font-weight: 500; color: #333;">
+<span id="current-live-time">Loading time...</span>
+</div>
+
+<script>
+const timeEl = document.getElementById('current-live-time');
+const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false };
+
+const showLiveTime = () => {
+timeEl.innerText = new Date().toLocaleString('en-US', options);
+};
+
+setInterval(showLiveTime, 1000);
+showLiveTime();
+</script>
 {{- end }}
