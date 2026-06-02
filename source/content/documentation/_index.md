@@ -1,8 +1,8 @@
 +++
 date = '2026-05-29T14:45:36+07:00'
-title = 'Tw documentation'
+title = 'documentation'
 [menu.main]
-name="tw documentation"
+name="documentation"
 weight=6
 +++
 
@@ -902,9 +902,9 @@ To travel to the Temple of the Gods:
 3. Walk to the service counter at `10, 10, 0` and press **Enter** to open the real estate menu.
 4. **You will see 4 types of houses available for purchase**:
     - House 1:** A basic two-story house without a garden. Cost: **50,000 dollars**.
-    - House 2: ** A larger home featuring a spacious kitchen and a beautiful garden with a small pond. Cost: **250,000 dollars**.
-    - House 3: ** A secluded house situated in the middle of the forest. Cost: **40,000 dollars**.
-    - House 4: ** The old engineer's house. Cost: **80,000 dollars**.
+    - House 2:** A larger home featuring a spacious kitchen and a beautiful garden with a small pond. Cost: **250,000 dollars**.
+    - House 3:** A secluded house situated in the middle of the forest. Cost: **40,000 dollars**.
+    - House 4:** The old engineer's house. Cost: **80,000 dollars**.
 5. After purchasing a house, the game will provide you with the house's location inside the residential area and a random entry password. It is highly recommended that you change this password to something easier to remember.
 6. You can quickly teleport back to your home at any time by using a `home_teleporter`.
 
