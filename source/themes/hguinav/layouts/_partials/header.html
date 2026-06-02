@@ -31,4 +31,27 @@ timeEl.innerText = new Date().toLocaleString('en-US', options);
 setInterval(showLiveTime, 1000);
 showLiveTime();
 </script>
+
+<div class="welcome-message">
+    <span id="greeting">Hello</span>, thank you for visiting our website!
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const now = new Date();
+        const hours = now.getHours();
+        let greeting = "Hello";
+
+        if (hours >= 5 && hours < 12) {
+            greeting = "Good morning";
+        } else if (hours >= 12 && hours < 18) {
+            greeting = "Good afternoon"; // Từ 12h trưa đến 5h59 chiều
+        } else {
+            greeting = "Good evening"; // Từ 6h tối đến 4h59 sáng
+        }
+
+        // Cập nhật lời chào vào thẻ span
+        document.getElementById("greeting").innerText = greeting;
+    });
+</script>
 {{- end }}

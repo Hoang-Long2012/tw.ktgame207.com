@@ -29,12 +29,12 @@
       if (diffHours < 24) {
         if (diffHours === 0) {
           const diffMinutes = Math.floor(diffTime / (1000 * 60));
-          text = `This site was last updated ${diffMinutes} ${diffMinutes <= 1 ? 'minute' : 'minutes'} ago`;
+          text = `This site is last updated ${diffMinutes} ${diffMinutes <= 1 ? 'minute' : 'minutes'} ago`;
         } else {
-          text = `This site was last updated ${diffHours} ${diffHours <= 1 ? 'hour' : 'hours'} ago`;
+          text = `This site is last updated ${diffHours} ${diffHours <= 1 ? 'hour' : 'hours'} ago`;
         }
       } else {
-        text = `This site was last updated ${diffDays} ${diffDays <= 1 ? 'day' : 'days'} ago`;
+        text = `This site is last updated ${diffDays} ${diffDays <= 1 ? 'day' : 'days'} ago`;
       }
 
       element.innerText = text;
