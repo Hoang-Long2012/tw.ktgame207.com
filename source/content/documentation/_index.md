@@ -340,10 +340,10 @@ These are the primary shortcuts of the game. You can use these shortcuts when na
 | Shortcut | Function |
 | --- | --- |
 | **Left / Right Arrow** | Move character left / right. |
-| **Up Arrow** | In 3D maps: Move character forward.<br>In 2D maps: Jump under normal conditions, or climb up if a climbable surface is present. |
-| **Down Arrow** | In 3D maps: Move character backward.<br>In 2D maps: Move down or dive into water when possible. |
-| **Shift + Left / Right Arrow** | In 3D maps: Rotate character 45 degrees.<br>In 2D maps: Look left / right. |
-| **Shift + Up / Down Arrow** | In 3D maps: Rotate character 180 degrees.<br>In 2D maps: Look up / down. |
+| **Up Arrow** | In 3D maps: Move character forward. In 2D maps: Jump under normal conditions, or climb up if a climbable surface is present. |
+| **Down Arrow** | In 3D maps: Move character backward. In 2D maps: Move down or dive into water when possible. |
+| **Shift + Left / Right Arrow** | In 3D maps: Rotate character 45 degrees. In 2D maps: Look left / right. |
+| **Shift + Up / Down Arrow** | In 3D maps: Rotate character 180 degrees. In 2D maps: Look up / down. |
 | **Control + Space** | Jump off the ground. |
 | **Q** | Sit down or stand up. |
 | **Shift + Q** | Sleep (if you are lying on a hammock or bed). |
@@ -351,28 +351,28 @@ These are the primary shortcuts of the game. You can use these shortcuts when na
 | **1** | Select left hand. |
 | **2** | Select right hand. |
 | **3** | Check items currently held in both hands. |
-| **I** | Open your inventory (backpack).<br>*Note: If skill mode is active, you cannot open your backpack.* |
-| **Page Up** | If on stairs: Climb up.<br>If in diving areas (rivers, lakes, streams): Surface from under water.<br>*Note: Page Up only works in 3D maps.* |
-| **Page Down** | If on stairs: Climb down.<br>If in diving areas: Dive down.<br>*Note: Page Down only works in 3D maps.* |
-| **Y** | Toggle between item usage mode and skill usage mode.<br>*Note: Keys 1 to 9 are used to punch and kick if skill mode is active and your status is War.* |
-| **Shift + Enter** | Open doors (only in linked maps).<br>If in backpack: Start a new auction with the current item.<br>If in a text box: Insert a new line.<br>If in new account creation dialog: Quickly trigger the `Create account` button.<br>If in store menu: Enter the quantity of the current item to buy. |
-| **Enter** | View current item's description (if in backpack).<br>Interact with nearby NPCs.<br>Pick up items from the ground (if there is a collectible item nearby).<br>Buy current item and close store menu (in store menu).<br>Additionally, Enter can open certain doors, activate menu options, and select buttons in dialogs/menus. |
-| **D** | Open certain doors.<br>Activate elevator (in elevator).<br>Tell current time (when next to a clock).<br>Operate certain machinery in-game. |
-| **R** | Reload ammunition into currently held weapon (if it uses ammo).<br>*Note: You cannot reload in Safe Zone and Safe Zone 1.* |
+| **I** | Open your inventory (backpack). *Note: If skill mode is active, you cannot open your backpack.* |
+| **Page Up** | If on stairs: Climb up. If in diving areas (rivers, lakes, streams): Surface from under water.<br>*Note: Page Up only works in 3D maps.* |
+| **Page Down** | If on stairs: Climb down. If in diving areas: Dive down.<br>*Note: Page Down only works in 3D maps.* |
+| **Y** | Toggle between item usage mode and skill usage mode. *Note: Keys 1 to 9 are used to punch and kick if skill mode is active and your status is War.* |
+| **Shift + Enter** | Open doors (only in linked maps). If in backpack: Start a new auction with the current item.<br>If in a text box: Insert a new line.<br>If in new account creation dialog: Quickly trigger the `Create account` button.<br>If in store menu: Enter the quantity of the current item to buy. |
+| **Enter** | View current item's description (if in backpack).<br>Interact with nearby NPCs. Pick up items from the ground (if there is a collectible item nearby).<br>Buy current item and close store menu (in store menu).<br>Additionally, Enter can open certain doors, activate menu options, and select buttons in dialogs/menus. |
+| **D** | Open certain doors. Activate elevator (in elevator).<br>Tell current time (when next to a clock).<br>Operate certain machinery in-game. |
+| **R** | Reload ammunition into currently held weapon (if it uses ammo). *Note: You cannot reload in Safe Zone and Safe Zone 1.* |
 | **Shift + R** | Unload ammunition from currently held weapon. |
-| **` (Backtick)** Check information of the item in your hand. See information in each category in the configuration section. Note: This key may conflict with NVDA screen reader keys. See information in settings. You can use the "Pass next key through" NVDA command or use **Alt + \`** instead.* |
-| **Alt + Backspace** | Dismount vehicles (like bikes and boats).<br>If in backpack: Discard a certain quantity of the current item onto the ground. |
-| **Space** | If hands are empty: Gather resources from the ground (grass, soil, sand, clay, wood, etc.).<br>If holding an item: Use that item.<br>If on a bike: Honk.<br>If in backpack: Open a menu of nearby players, press Enter on a player to gift the current item, and enter the quantity to gift.<br>If skill mode is active: Jump off the ground.<br>Additionally, Space is used to read instruction signs on certain maps. Open the door while in an unlinked map. |
-| **Alt + Space** | Throw currently held item.<br>*Note: Currently only applicable to spears; may support more items in the future. Can be used in the oven. * |
+| **` (Backtick)** Check information of the item in your hand. See information in each category in the configuration section. Note: This key may conflict with NVDA screen reader keys. You can use the "Pass next key through" NVDA command or use **Alt + \`** instead.* |
+| **Alt + Backspace** | Dismount vehicles (like bikes and boats). If in backpack: Discard a certain quantity of the current item onto the ground. |
+| **Space** | If hands are empty: Gather resources from the ground (grass, soil, sand, clay, wood, etc.). If holding an item: Use that item If on a bike: Honk. If in backpack: Open a menu of nearby players, press Enter on a player to gift the current item, and enter the quantity to gift. If skill mode is active: Jump off the ground. Additionally, Space is used to read instruction signs on certain maps. Open the door while in an unlinked map. |
+| **Alt + Space** | Throw currently held item. *Note: Currently only applicable to spears; may support more items in the future. Can be used in the oven. * |
 | **Alt + 1** | Check the current in-game time using your wristwatch (if equipped). |
 | **C** | Check what you are currently wearing/equipping. |
 | **Shift + C** | View list of currently equipped items. Use Up/Down Arrow to navigate and press Enter to unequip an item. |
-| **Tab / Shift + Tab** | Navigate through interface areas.<br>If in backpack: Cycle through inventory tabs. |
-| **Escape** | If online: Go offline.<br>If in main menu: Exit the game.<br>If in menus, backpack, or NPC dialogs: Close them. |
+| **Tab / Shift + Tab** | Navigate through interface areas. If in backpack: Cycle through inventory tabs. |
+| **Escape** | If online: Go offline. If in main menu: Exit the game. If in menus, backpack, or NPC dialogs: Close them. |
 | **Hold G + Arrows** | Move camera in the corresponding direction. |
 | **Shift + G** | Lock or unlock the camera. |
-| **Z** | Toggle auto-walk mode.<br>*Note: When auto-walk is enabled, you can hold down arrow keys to continuously move without pressing repeatedly.* |
-| **Alt + L** | View list of in-game sounds. |
+| **Z** | Toggle auto-walk mode. *Note: When auto-walk is enabled, you can hold down arrow keys to continuously move without pressing repeatedly.* |
+| **Alt + L** | (For developers only) View list of in-game sounds. |
 | **Shift + /** | View number of online players. |
 | **H** | Check your health. |
 | **E** | Check your energy. |
@@ -394,7 +394,7 @@ These are the primary shortcuts of the game. You can use these shortcuts when na
 | **Shift + P** | Open nearby players menu to select a player to track. |
 | **W** | Check remaining steps to the player you are tracking. |
 | **Shift + W** | Toggle auto-tracking for players. |
-| **Alt + Up / Down Arrow** | If in backpack: Move current item up or down.<br>If not: Navigate through favorite items. |
+| **Alt + Up / Down Arrow** | If in backpack: Move current item up or down. If not: Navigate through favorite items. |
 | **Shift + Delete** | Remove current item from favorites list. |
 | **Backspace** | If in backpack: Discard current item onto the ground. can track selected elements after pressing = and - to search. If not: Use current favorite item. |
 | **V** | Pressing once will turn on the microphone, pressing again will turn it off. |
