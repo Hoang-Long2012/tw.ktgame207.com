@@ -1,5 +1,7 @@
-baseURL = "https://example.org/"
-title = "UI Navigation"
+baseURL = "https://tw.ktgame207.com/"
+locale = 'en-us'
+title = "Terra Wilds, official website"
 [module.hugoVersion]
 	extended = true
-	min = "0.146.2"
+	min = "0.161.1"
+theme = "hguinav"
