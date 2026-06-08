@@ -352,12 +352,12 @@ These are the primary shortcuts of the game. You can use these shortcuts when na
 | **2** | Select right hand. |
 | **3** | Check items currently held in both hands. |
 | **I** | Open your inventory (backpack). *Note: If skill mode is active, you cannot open your backpack.* |
-| **Page Up** | If on stairs: Climb up. If in diving areas (rivers, lakes, streams): Surface from under water.<br>*Note: Page Up only works in 3D maps.* |
-| **Page Down** | If on stairs: Climb down. If in diving areas: Dive down.<br>*Note: Page Down only works in 3D maps.* |
+| **Page Up** | If on stairs: Climb up. If in diving areas (rivers, lakes, streams): Surface from under water. *Note: Page Up only works in 3D maps.* |
+| **Page Down** | If on stairs: Climb down. If in diving areas: Dive down. *Note: Page Down only works in 3D maps.* |
 | **Y** | Toggle between item usage mode and skill usage mode. *Note: Keys 1 to 9 are used to punch and kick if skill mode is active and your status is War.* |
-| **Shift + Enter** | Open doors (only in linked maps). If in backpack: Start a new auction with the current item.<br>If in a text box: Insert a new line.<br>If in new account creation dialog: Quickly trigger the `Create account` button.<br>If in store menu: Enter the quantity of the current item to buy. |
-| **Enter** | View current item's description (if in backpack).<br>Interact with nearby NPCs. Pick up items from the ground (if there is a collectible item nearby).<br>Buy current item and close store menu (in store menu).<br>Additionally, Enter can open certain doors, activate menu options, and select buttons in dialogs/menus. |
-| **D** | Open certain doors. Activate elevator (in elevator).<br>Tell current time (when next to a clock).<br>Operate certain machinery in-game. |
+| **Shift + Enter** | Open doors (only in linked maps). If in backpack: Start a new auction with the current item. If in a text box: Insert a new line. If in new account creation dialog: Quickly trigger the `Create account` button. If in store menu: Enter the quantity of the current item to buy. |
+| **Enter** | View current item's description (if in backpack). Interact with nearby NPCs. Pick up items from the ground (if there is a collectible item nearby). Buy current item and close store menu (in store menu). Additionally, Enter can open certain doors, activate menu options, and select buttons in dialogs/menus. |
+| **D** | Open certain doors. Activate elevator (in elevator). Tell current time (when next to a clock). Operate certain machinery in-game. |
 | **R** | Reload ammunition into currently held weapon (if it uses ammo). *Note: You cannot reload in Safe Zone and Safe Zone 1.* |
 | **Shift + R** | Unload ammunition from currently held weapon. |
 | **` (Backtick)** Check information of the item in your hand. See information in each category in the configuration section. Note: This key may conflict with NVDA screen reader keys. You can use the "Pass next key through" NVDA command or use **Alt + \`** instead.* |
@@ -901,10 +901,10 @@ To travel to the Temple of the Gods:
 2. Go to coordinate `25, 419, 0` and press **Shift + Enter** to enter the **Real Estate Agency**.
 3. Walk to the service counter at `10, 10, 0` and press **Enter** to open the real estate menu.
 4. **You will see 4 types of houses available for purchase**:
-    - House 1:** A basic two-story house without a garden. Cost: **50,000 dollars**.
-    - House 2:** A larger home featuring a spacious kitchen and a beautiful garden with a small pond. Cost: **250,000 dollars**.
-    - House 3:** A secluded house situated in the middle of the forest. Cost: **40,000 dollars**.
-    - House 4:** The old engineer's house. Cost: **80,000 dollars**.
+    - House 1: A basic two-story house without a garden. Cost: **50,000 dollars**.
+    - House 2: A larger home featuring a spacious kitchen and a beautiful garden with a small pond. Cost: **250,000 dollars**.
+    - House 3: A secluded house situated in the middle of the forest. Cost: **40,000 dollars**.
+    - House 4: The old engineer's house. Cost: **80,000 dollars**.
 5. After purchasing a house, the game will provide you with the house's location inside the residential area and a random entry password. It is highly recommended that you change this password to something easier to remember.
 6. You can quickly teleport back to your home at any time by using a `home_teleporter`.
 

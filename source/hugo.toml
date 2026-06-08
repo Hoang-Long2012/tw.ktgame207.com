@@ -1,4 +1,4 @@
 baseURL = 'https://tw.ktgame207.com/'
-languageCode = 'en-us'
+locale = 'en-us'
 title = 'Terra Wilds, official website'
 theme = "hguinav"
