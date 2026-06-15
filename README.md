@@ -15,7 +15,9 @@ Enter 1, and it will build the server at localhost:1313. Go to that address to v
 ## How to Contribute
 
 
-- First: read the \[Hugo documentation](https://gohugo.io/documentation/) or ask an AI. Then, find the source directory. This is the entire source code and configuration.
+- First: Read the  
+[Hugo documentation](https://gohugo.io/documentation/)  
+or ask an AI. Then, find the source directory. This is the entire source code and configuration.
 
 ## Warning and Notes
 
